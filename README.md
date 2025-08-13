@@ -29,18 +29,24 @@
 - [Built Using](#built_using)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
+- [PSAppDeployToolkit Documentation](https://psappdeploytoolkit.com)
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+AS Windows 10 end of life is planned on 14th October 2025. Several small, medium and large enterprises have to plan to upgrade to Windows 11 with minimum end user impact. Otherwise, they will end up with devices which will not be able to receive patches. 
+However, with the minimum requirements of Windows 11 being UEFI enablement and TPM 2.0 etc. Many existing devices will have to be replaced, which is a big dent in the IT budget. To avoid this I have written a script which sets up some registry values which trick windows in thinking that it already meets these prerequisites to start Windows 11 upgrade.
+This uses the PSADT wrapper to execute Windows 11 Installation Assistant tool with parameters which are passed through to windows 11 setup which is downloaded by Windows 11 Installation Assistant tool. 
+
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+This repository contains a PowerShell script, `Invoke-AppDeployToolkit.ps1`, designed to automate the installation, uninstallation, or repair of the Windows 11 24H2 Feature Upgrade using the PSAppDeployToolkit framework. The script provides a robust, customizable, and user-friendly experience for end users.
+The ‘Install.ps1’ uses ‘ServiceUI.exe' to initiate the `Invoke-AppDeployToolkit.ps1’ script which although runs in the system account context, the 'ServiceUI.exe' finds the logged-on user session and then project the User Interface of the script to the logged in user. Since the application would be deployed in bulk via tools such as Microsoft System Center Configuration Manager or Microsoft Intune, which will run the installation as system account, the end user would not be aware of any action being performed in the background. This creates a challenge where the end user might accidentally power off or reboot the device and cause the upgrade to fail.
+ 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+Prerequisites of the script are kept under ../files folder
 
 ```
 Give examples
@@ -101,9 +107,10 @@ Add additional notes about how to deploy this on a live system.
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- Bhushan Kelkar [@kountilya](https://github.com/kountilya) - Idea & Initial work
+- PSAppDeployToolkit Team (Toolkit Authors)
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
