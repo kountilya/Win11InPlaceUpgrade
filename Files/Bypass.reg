@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\PCHC]
+"UpgradeEligibility"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup]
+"AllowUpgradesWithUnsupportedTPMOrCPU"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig]
+"BypassCPUCheck"=dword:00000001
+"BypassDiskCheck"=dword:00000001
+"BypassRAMCheck"=dword:00000001
+"BypassSecureBootCheck"=dword:00000001
+"BypassStorageCheck"=dword:00000001
+"BypassTPMCheck"=dword:00000001
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\HwReqChk]
+"HwReqChkVars"=hex(7):53,00,51,00,5f,00,53,00,65,00,63,00,75,00,72,00,65,00,42,\
+  00,6f,00,6f,00,74,00,43,00,61,00,70,00,61,00,62,00,6c,00,65,00,3d,00,54,00,\
+  52,00,55,00,45,00,00,00,53,00,51,00,5f,00,53,00,65,00,63,00,75,00,72,00,65,\
+  00,42,00,6f,00,6f,00,74,00,45,00,6e,00,61,00,62,00,6c,00,65,00,64,00,3d,00,\
+  54,00,52,00,55,00,45,00,00,00,53,00,51,00,5f,00,54,00,70,00,6d,00,56,00,65,\
+  00,72,00,73,00,69,00,6f,00,6e,00,3d,00,32,00,00,00,53,00,51,00,5f,00,52,00,\
+  61,00,6d,00,4d,00,42,00,3d,00,38,00,31,00,39,00,32,00,00,00,00,00
