@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://github.com/kountilya/Win11InPlaceUpgrade/blob/main/Assets/AppIcon.png" alt="Project logo"></a>
+ <img width=200px height=200px src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/sds-windows11-laptop-fy24?scl=1&fmt=png-alpha" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Windows 11 InPlace Upgrade</h3>
