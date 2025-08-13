@@ -34,7 +34,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-AS Windows 10 end of life is planned on 14th October 2025. Several small, medium and large enterprises have to plan to upgrade to Windows 11 with minimum end user impact. Otherwise, they will end up with devices which will not be able to receive patches. 
+As Windows 10 end of life is planned on **14th October 2025**. Several small, medium and large enterprises have to plan to upgrade to Windows 11 with minimum end user impact. Otherwise, they will end up with devices which will not be able to receive patches. 
 
 However, with the minimum requirements of Windows 11 being UEFI enablement and TPM 2.0 etc. Many existing devices will have to be replaced, which is a big dent in the IT budget. To avoid this I have written a script which sets up some registry values which trick windows in thinking that it already meets these prerequisites to start Windows 11 upgrade.
 
