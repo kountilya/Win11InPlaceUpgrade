@@ -57,7 +57,7 @@ I am using `Bypass.reg` for some registry keys that I was having hard time putti
 
 In some tests I found that some devices were going in sleep or hibernate mode. `caffeine64.exe` helps to keep it active during the installation. 
 
-`Setupconfig.ini` provides parameters to the Windows 11 Setup to ignore compatibility check as an additional measure even though we are bypassing them using registry keys. Accepts End User License Agreement, sets the upgrade mode as auto, suspends BitLocker for the duration of Windows 11 installation and disables dynamic update as sometimes it takes longer to get them. Feel free to modify the same according to your requirements. You can refer to [this](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-setup-command-line-options?view=windows-11) link for additional parameters. Make sure that you check the applicability section of each parameter to check if it works with `setupconfig.ini`!
+`Setupconfig.ini` provides parameters to the Windows 11 Setup to ignore compatibility check as an additional measure even though we are bypassing them using registry keys. Accepts End User License Agreement, sets the upgrade mode as auto, suspends BitLocker for the duration of Windows 11 installation and disables dynamic update as sometimes it takes longer to get them. Feel free to modify the same according to your requirements.
 
 
 
@@ -105,5 +105,5 @@ Write-Host $true
 
 - Hat tip to anyone whose code was used
 - References
-
-
+Hardware Check bypass - https://learn.microsoft.com/en-us/windows/win32/api/_hwreqchk/ and https://github.com/pbatard/rufus/issues/2568#issuecomment-2387934171
+SetupConfig.ini - https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-setup-command-line-options?view=windows-11 Make sure that you check the applicability section of each parameter to check if it works with `setupconfig.ini`!
