@@ -48,7 +48,7 @@ The `Install.ps1` uses `ServiceUI.exe` to initiate the `Invoke-AppDeployToolkit.
 
  
 
-### Prerequisites <a name = "Prerequisites"></a>
+## Prerequisites <a name = "Prerequisites"></a>
 
 Prerequisites of the script are kept under [files](https://github.com/kountilya/Win11InPlaceUpgrade/tree/main/Files) folder
 
