@@ -24,6 +24,7 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
+- [Prerequisites](#Prerequisites)
 - [Deployment](#deployment)
 - [Built Using](#built_using)
 - [Authors](#authors)
@@ -47,7 +48,7 @@ The `Install.ps1` uses `ServiceUI.exe` to initiate the `Invoke-AppDeployToolkit.
 
  
 
-### Prerequisites
+### Prerequisites <a name = "Prerequisites"></a>
 
 Prerequisites of the script are kept under [files](https://github.com/kountilya/Win11InPlaceUpgrade/tree/main/Files) folder
 
@@ -97,7 +98,7 @@ Write-Host $true
 ## ✍️ Authors <a name = "authors"></a>
 
 - Bhushan Kelkar [@kountilya](https://github.com/kountilya) - Idea & Initial work
-- PSAppDeployToolkit Team (Toolkit Authors)
+- PSAppDeployToolkit Team [@PSAppDeployToolkit](https://github.com/PSAppDeployToolkit) - Toolkit Authors
 
 
 
