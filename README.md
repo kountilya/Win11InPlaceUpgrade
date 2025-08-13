@@ -106,5 +106,7 @@ Write-Host $true
 
 - Hat tip to anyone whose code was used
 - References
+  
 Hardware Check bypass - https://learn.microsoft.com/en-us/windows/win32/api/_hwreqchk/ and https://github.com/pbatard/rufus/issues/2568#issuecomment-2387934171
+
 SetupConfig.ini - https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-setup-command-line-options?view=windows-11 Make sure that you check the applicability section of each parameter to check if it works with `setupconfig.ini`!
