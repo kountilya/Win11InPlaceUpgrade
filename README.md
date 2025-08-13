@@ -43,7 +43,7 @@ This uses the PSADT wrapper to execute Windows 11 Installation Assistant tool wi
 
 This repository contains a PowerShell script, `Invoke-AppDeployToolkit.ps1`, designed to automate the installation, uninstallation, or repair of the Windows 11 24H2 Feature Upgrade using the PSAppDeployToolkit framework. The script provides a robust, customizable, and user-friendly experience for End Users.
 
-The ‘Install.ps1’ uses ‘ServiceUI.exe' to initiate the `Invoke-AppDeployToolkit.ps1’ script which although runs in the system account context, the 'ServiceUI.exe' finds the logged-on user session and then projects the User Interface of the script to the logged in user. Since the application would be deployed in bulk via tools such as Microsoft System Center Configuration Manager or Microsoft Intune, which will run the installation as system account, the end user would not be aware of any action being performed in the background. This creates a challenge where the end user might accidentally power off or reboot the device and cause the upgrade to fail.
+The `Install.ps1` uses `ServiceUI.exe` to initiate the `Invoke-AppDeployToolkit.ps1` script which although runs in the system account context, the `ServiceUI.exe` finds the logged-on user session and then projects the User Interface of the script to the logged in user. Since the application would be deployed in bulk via tools such as Microsoft System Center Configuration Manager or Microsoft Intune, which will run the installation as system account, the end user would not be aware of any action being performed in the background. This creates a challenge where the end user might accidentally power off or reboot the device and cause the upgrade to fail.
 
  
 
@@ -85,7 +85,7 @@ Write-Host $true
 }
 ```
 
-***I would recommend to keep the reboot behavior as SCCM/Intune to force device reboot after installation. ***
+***I would recommend to keep the reboot behavior as SCCM/Intune to force device reboot after installation.***
 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
