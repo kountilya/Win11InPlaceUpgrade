@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/sds-windows11-laptop-fy24?scl=1&fmt=png-alpha" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Windows 11 InPlace Upgrade</h3>
+<h3 align="center">💻Windows 11 InPlace Upgrade💪</h3>
 
 <div align="center">
 
@@ -16,7 +16,8 @@
 
 ---
 
-<p align="center"> This is a simplest Windows 10 to Windows 11 upgrade tool. It will try to overcome most of the prerequisites which block Winows 11 Upgrade on older devices.
+<p align="center"> This is a simplest Windows 10 to Windows 11 upgrade tool. 
+  It will skip most of the prerequisites which block Winows 11 Upgrade on older devices.
     <br> 
 </p>
 
@@ -48,7 +49,7 @@ The `Install.ps1` uses `ServiceUI.exe` to initiate the `Invoke-AppDeployToolkit.
 
  
 
-## Prerequisites <a name = "Prerequisites"></a>
+## 🧰 Prerequisites <a name = "Prerequisites"></a>
 
 Prerequisites of the script are kept under [files](https://github.com/kountilya/Win11InPlaceUpgrade/tree/main/Files) folder
 
